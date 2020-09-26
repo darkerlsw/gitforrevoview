@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="juanji2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/C/CLion project/juanji2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/C/MinGW/bin/mingw32-make.exe -f &quot;D:/C/CLion project/juanji2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/C/MinGW/bin/mingw32-make.exe -f &quot;D:/C/CLion project/juanji2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C/MinGW/bin/mingw32-make.exe -f &quot;D:/C/CLion project/juanji2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C/MinGW/bin/mingw32-make.exe -f &quot;D:/C/CLion project/juanji2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/C/CLion project/juanji2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/C/MinGW/bin/mingw32-make.exe -f &quot;D:/C/CLion project/juanji2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/C/MinGW/bin/mingw32-make.exe -f &quot;D:/C/CLion project/juanji2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C/MinGW/bin/mingw32-make.exe -f &quot;D:/C/CLion project/juanji2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C/MinGW/bin/mingw32-make.exe -f &quot;D:/C/CLion project/juanji2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="juanji2">
+				<Option output="D:/C/CLion project/juanji2/cmake-build-debug/juanji2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C/CLion project/juanji2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\c\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\c\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\c\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\c\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/C/MinGW/bin/mingw32-make.exe -f &quot;D:/C/CLion project/juanji2/cmake-build-debug/Makefile&quot;  VERBOSE=1 juanji2"/>
+					<CompileFile command="D:/C/MinGW/bin/mingw32-make.exe -f &quot;D:/C/CLion project/juanji2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C/MinGW/bin/mingw32-make.exe -f &quot;D:/C/CLion project/juanji2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C/MinGW/bin/mingw32-make.exe -f &quot;D:/C/CLion project/juanji2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="juanji2/fast">
+				<Option output="D:/C/CLion project/juanji2/cmake-build-debug/juanji2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C/CLion project/juanji2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\c\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\c\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\c\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\c\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/C/MinGW/bin/mingw32-make.exe -f &quot;D:/C/CLion project/juanji2/cmake-build-debug/Makefile&quot;  VERBOSE=1 juanji2/fast"/>
+					<CompileFile command="D:/C/MinGW/bin/mingw32-make.exe -f &quot;D:/C/CLion project/juanji2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C/MinGW/bin/mingw32-make.exe -f &quot;D:/C/CLion project/juanji2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C/MinGW/bin/mingw32-make.exe -f &quot;D:/C/CLion project/juanji2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/C/CLion project/juanji2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/C/MinGW/bin/mingw32-make.exe -f &quot;D:/C/CLion project/juanji2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/C/MinGW/bin/mingw32-make.exe -f &quot;D:/C/CLion project/juanji2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C/MinGW/bin/mingw32-make.exe -f &quot;D:/C/CLion project/juanji2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C/MinGW/bin/mingw32-make.exe -f &quot;D:/C/CLion project/juanji2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/C/CLion project/juanji2/main.c">
+			<Option target="juanji2"/>
+		</Unit>
+		<Unit filename="D:/C/CLion project/juanji2/pointer.c">
+			<Option target="juanji2"/>
+		</Unit>
+		<Unit filename="D:/C/CLion project/juanji2/sort.c">
+			<Option target="juanji2"/>
+		</Unit>
+		<Unit filename="D:/C/CLion project/juanji2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
